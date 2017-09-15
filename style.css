@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: Helvetica;
+}
+
+body > div {
+  width: 700px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 2px solid black;
+  text-align: center;
+  padding: 5px;
+}
+
+section#output {
+  position: fixed;
+  width: 300px;
+  max-width: 80%;
+  right: 0px;
+  bottom: 0px;
+  padding: 10px;
+  background: #d9e2ff;
+  border: 2px solid #6b6eff;
+  transition: transform .3s ease;
+}
+
+section#output section {
+  height: 100px;
+  margin-top: 1em;
+  border: 2px dashed #a7a7a7;
+  overflow-y: scroll;
+}
+
+section#output.hidden {
+  transform: translateX(100%);
+}
+
+section#output #hideButton {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  color: #6b6eff;
+  text-align: center;
+  line-height: 30px;
+  background: #d9e2ff;
+  border: 2px solid #6b6eff;
+  border-right-color: #d9e2ff;
+  transform: translate(calc(-100% - 10px), -12px);
+}
