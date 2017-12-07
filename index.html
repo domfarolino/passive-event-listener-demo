@@ -7,6 +7,16 @@
   <div>
     <h1>Passive event listeners demo</h1>
     <small><i>Author: Dominic Farolino <a href="mailto:domfarolino@gmail.com">domfarolino@gmail.com</a></i></small>
+    <p>
+      This is a little playground that allows you to experiment with passive event
+      listeners. What are passive event listeners?
+
+      Relevant links:
+    </p>
+    <ul>
+      <li><a href=https://github.com/WICG/EventListenerOptions/blob/gh-pages/explainer.md>WICG Explainer</a></li>
+      <li><a href=https://dom.spec.whatwg.org/#observing-event-listeners>DOM Standard - Observing Event Listeners</a></li>
+    </ul>
     <hr>
     <h2>Controls</h2>
     <p><b>1.) Select which events to listen for</b></p>
@@ -34,7 +44,7 @@
     </table>
     <hr>
 
-    <p><b>2.) Drag the slider to adjust how much "work" event listeners do</b></p>
+    <p><b>2.) Drag the slider to adjust how much synchronous "work" event listeners do</b></p>
     <input type="range" id="weight" min="0" value="0" max="1000" step="10"><span>0ms</span>
     <hr>
 

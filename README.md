@@ -6,4 +6,4 @@ passive event listeners?
 Relevant links:
 
  - https://github.com/WICG/EventListenerOptions/blob/gh-pages/explainer.md
- - https://dom.spec.whatwg.org/#in-passive-listener-flag
+ - https://dom.spec.whatwg.org/#observing-event-listeners
